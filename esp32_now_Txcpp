@@ -4,7 +4,7 @@
 
 #define BUTTON_PIN 14
 uint8_t receptorAddress[] = {0x8C,0xCE,0x4E,0xBA,0x5E,0x14}; 
-
+// 44:1D:64:F3:E2:34
 void setup() {
   Serial.begin(115200);
   pinMode(BUTTON_PIN, INPUT_PULLUP);
