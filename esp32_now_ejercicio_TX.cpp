@@ -13,8 +13,12 @@
 // ───────────────────────────────────────────────
 // DIRECCIÓN MAC DEL RECEPTOR
 // ───────────────────────────────────────────────
+// Dirección MAC del receptor:
+//EC:E3:34:21:42:D8
+//uint8_t receptorAddress[] = {0xEC, 0xE3, 0x34, 0x21, 0x42, 0xD8};
+
 uint8_t receptorAddress[] = {0xEC, 0xE3, 0x34, 0x21, 0x42, 0xD8};
-//ARRIBA AÑADIR DIRECCION MAX DEL RX EN
+
 // ───────────────────────────────────────────────
 // ESTRUCTURA DE DATOS A ENVIAR
 // Se usan tipos pequeños (float + int8_t) para ahorrar espacio
