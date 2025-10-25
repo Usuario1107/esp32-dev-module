@@ -1,3 +1,4 @@
+//! SOLO COMPILA EN IDE DE ARDUINO, NO EN PLATAFORMIO POR PROBLEMS DE VERSIÓN!
 #include <Arduino.h>
 #include <WiFi.h>
 #include <esp_now.h>
